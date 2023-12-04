@@ -8,7 +8,7 @@ padding: 0;
 h1{
     color:black;
     background-color: grey;
-    border-bottom: 5px solid lightblue;
+    border-bottom: 2px solid lightblue;
     text-align: center; 
     padding: 5%;
     margin-top: 0;
@@ -20,6 +20,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: system-ui;
 }
 
 .answer-field{
