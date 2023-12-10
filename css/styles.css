@@ -14,6 +14,7 @@ body {
     max-width: 600px;
     margin: auto;
 }
+
 h1,h2 {
     color: var(--dritte-color);
     background-color:var(--erste-color);
@@ -25,13 +26,14 @@ h1,h2 {
 main {
     padding-bottom: 4rem;
 }
+
 .questions-list,
 .profile
  {
     list-style: none;
     padding: 0;
-
 }
+
 .Fragebox,
 .profile,
 section
@@ -44,22 +46,19 @@ section
     position: relative;
     padding: 1rem;
 }
+
 .bookmark {
     font-size: 1.8rem;
     position: absolute;
     top: -15%;
     right: 0;
-
 }
+
 .Frage {
     padding-bottom: 0.7rem;
     padding-top: 0.7rem;
 }
 
-button{
-    padding: 0.5rem;
-
-}
 .categories-overview {
     display: flex;
     list-style: none;
@@ -67,9 +66,7 @@ button{
     gap: 1rem;
     padding-top: 1rem;
 }
-.answer {
-    visibility: hidden;
-}
+
 .categories {
     background-color: var(--erste-color);
     border: none;
@@ -104,6 +101,14 @@ fieldset{
 a {
     text-decoration: none;
 }
+
+.versteckter-text {
+    display: none;
+}
+
+.button:hover {
+    background-color: black;
+} /*das funktioniert nicht. Es soll den button färben, wenn man über ihn hovert*/
 
 /*{} option und 8
 } option und 9 
