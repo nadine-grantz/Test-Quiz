@@ -107,7 +107,7 @@ a {
 }
 
 .button:hover {
-    background-color: black;
+    background-color: lightblue;
 } /*das funktioniert nicht. Es soll den button färben, wenn man über ihn hovert*/
 
 /*{} option und 8
